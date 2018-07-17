@@ -1,30 +1,28 @@
-/*
-	Put the code for your game in this file.
-	This code is just for you to get started.	
-
-	by Sam Kolovson
- */
-
 // constants to set up the environment
+
 const CANVAS_WIDTH = 500;
+
 const CANVAS_HEIGHT = 500;
+
 const BACKGROUND_COLOR = 'lightblue';
 
-// variables to hold the players location
-var playerX = 50;
+
+
+// location of the player
+
+var playerX = 100;
+
 var playerY = 50;
 
-/*
-	The setup function runs once when the program starts.
- */
+var name = "sam";
+
 function setup() {
   createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
+  //fill('grey');
+  //arc(200, 50, 100, 80, 0, PI, CHORD);
 }
 
-/*
-	 The draw function loops over and over until the program stops
-	 or when noLoop() is called.
- */
+// loops forever
 function draw() {
   // Draw background
   background(BACKGROUND_COLOR);
@@ -50,11 +48,11 @@ function draw() {
   }
 }
 
-/*
-	This function draw the player on the screen at pX, pY.
- */
+// draws a snowman
 function drawPlayer(pX, pY) {
-  noStroke();
+  //replace this...
+  
+	noStroke();
   fill('white');
   
   // body
